@@ -1,11 +1,10 @@
-import React from 'react';
-
-function Banner() {
-  return (
-    <div>
-      Banner
-    </div>
-  );
+import React, { PureComponent } from 'react';
+import { View, Text } from '@tarojs/components'
+class Index extends PureComponent {
+  render() {
+      return <Text>This is Banner</Text>
+  }
 }
 
-export default Banner;
+
+export default Index;

@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import { View, Text } from '@tarojs/components'
-import { SearchBar } from '../../components/SearchBar'
+import { Banner } from '../../components'
 import './index.scss'
 
 export default class Index extends Component {
@@ -19,7 +19,7 @@ export default class Index extends Component {
     return (
       <View className='index'>
         <Text>Hello world!</Text>
-        <SearchBar></SearchBar>
+        <Banner></Banner>
       </View>
     )
   }
