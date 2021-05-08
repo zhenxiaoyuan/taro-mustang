@@ -1,6 +1,7 @@
 import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
-import { Banner } from '../../components'
+import { View } from '@tarojs/components'
+import { SearchBar, Banner, MainMenu, ArticleTitle } from '../../components'
+
 import './index.scss'
 
 export default class Index extends Component {
@@ -18,8 +19,12 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
+        <SearchBar />
         <Banner></Banner>
+        <MainMenu></MainMenu>
+        <ArticleTitle></ArticleTitle>
+        <ArticleTitle></ArticleTitle>
+        <ArticleTitle></ArticleTitle>
       </View>
     )
   }
